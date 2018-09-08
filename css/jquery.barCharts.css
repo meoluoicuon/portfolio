@@ -1,0 +1,46 @@
+﻿.barChart {
+}
+
+.barChart__row {
+    display: block;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+    .barChart__row:after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+
+.barChart__label {
+    float: left;
+font-family: montserrat;
+    font-weight: 700;
+    font-size: 11pt;
+    color: black;
+    width: 110px;
+}
+
+.barChart__value {
+    float: right;
+  
+    width: 30px;
+}
+
+.barChart__bar {
+    display: block;
+    overflow: hidden;
+    background: transparent;
+    height: 18px;
+}
+
+.barChart__barFill {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: #b0c1bf;
+    
+
+}
