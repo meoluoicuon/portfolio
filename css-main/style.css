@@ -386,6 +386,7 @@ header {
     transition: 0.2s all;
     -webkit-transition-delay: 0.1s;
     transition-delay: 0.1s;
+    font-weight: 700;
 }
 
 .work:hover .work-content h3 {
@@ -410,6 +411,7 @@ header {
     transition: 0.2s all;
     -webkit-transition-delay: 0.2s;
     transition-delay: 0.2s;
+    
 }
 
 .work:hover .work-content span {
@@ -578,8 +580,38 @@ header {
       
 
 }
+.footer-text a{
+
+      color: white;
+      font-size: 17px;
+      font-family: Montserrat; /*mont*/
+      font-weight: 700;
+      text-transform: lowercase;
+     
+
+}
+.footer-text a:hover{
+
+      color: white;
+      font-size: 17px;
+      font-family: Montserrat; /*mont*/
+      font-weight: 700;
+      text-transform: lowercase;
+     background-color: #aeccc7;
+
+}
 .bg-custom {
   background-color: #302922;
+}
+.aboutcontent a:hover {
+  background-color: #aeccc7;
+  color: white;
+}
+
+.aboutcontent a{
+font-weight: 700;
+color: black;
+ 
 }
 
 
